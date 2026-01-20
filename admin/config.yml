@@ -1,7 +1,9 @@
 backend:
   name: github
-  repo: ABDULAZIZJaberALSHEHRI/azo-portfolio
+  repo: ABDULAZIZJaberALSHEHRI/Azo-portfolio
   branch: main
+  base_url: http://145.241.111.234:3000
+  auth_endpoint: auth
 
 media_folder: "assets"
 public_folder: "assets"
@@ -15,9 +17,3 @@ collections:
         name: "index"
         fields:
           - {label: "Bio Summary", name: "bio", widget: "text"}
-backend:
-  name: github
-  repo: ABDULAZIZJaberALSHEHRI/Azo-portfolio
-  branch: main
-  base_url: http://145.241.111.234:3000  # <--- This is the new link
-  auth_endpoint: auth
