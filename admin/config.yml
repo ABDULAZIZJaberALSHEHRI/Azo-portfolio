@@ -3,14 +3,14 @@ backend:
   repo: ABDULAZIZJaberALSHEHRI/azo-portfolio
   branch: main
 
-media_folder: "my-code/assets"
+media_folder: "assets"
 public_folder: "assets"
 
 collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "my-code/index.html"
+      - file: "index.html"
         label: "Home Page"
         name: "index"
         fields:
