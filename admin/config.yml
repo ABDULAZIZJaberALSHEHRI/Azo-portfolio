@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: ABDULAZIZJaberALSHEHRI/azo-portfolio
+  branch: main
+
+media_folder: "my-code/assets"
+public_folder: "assets"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "my-code/index.html"
+        label: "Home Page"
+        name: "index"
+        fields:
+          - {label: "Bio Summary", name: "bio", widget: "text"}
